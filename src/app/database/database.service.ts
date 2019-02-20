@@ -9,7 +9,7 @@ export class DatabaseService {
     db: SQLiteObject;
 
     configuration = {
-        name: 'data.db',
+        name: 'segundo.db',
         location: 'default'
     };
 
