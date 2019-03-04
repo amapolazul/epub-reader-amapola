@@ -11,6 +11,8 @@ export class BookService {
     book: Book;
     rendtion: Rendition;
 
+    isOpen: boolean;
+
     constructor() {
         this.book = new ePub.Book('assets/epub/primero.epub');
     }
@@ -31,5 +33,11 @@ export class BookService {
         return this.book;
     }
 
+    setIsOpen(value) {
+        this.isOpen = value;
+    }
 
+    getIsOpen() {
+        return this.isOpen;
+    }
 }
