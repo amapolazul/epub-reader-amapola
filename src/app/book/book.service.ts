@@ -14,7 +14,7 @@ export class BookService {
     isOpen: boolean;
 
     constructor() {
-        this.book = new ePub.Book('assets/epub/primero.epub');
+        this.book = new ePub.Book('assets/epub/cuarto.epub');
     }
 
     setRendtion(rendition) {
