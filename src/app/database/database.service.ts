@@ -9,7 +9,7 @@ export class DatabaseService {
     db: SQLiteObject;
 
     configuration = {
-        name: 'cuarto.db',
+        name: 'matoneo.db',
         location: 'default'
     };
 
