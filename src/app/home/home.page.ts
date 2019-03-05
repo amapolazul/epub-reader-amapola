@@ -30,7 +30,7 @@ export class HomePage implements OnInit {
                 private router: Router) {
 
         this.book = this.bookService.getBook();
-        this.rendition = this.book.renderTo('area');
+        this.rendition = this.book.renderTo('area', {width: '100%'});
         this.bookService.setRendtion(this.rendition);
         this.rendition.display();
         this.showElement = false;

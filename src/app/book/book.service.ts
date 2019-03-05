@@ -14,7 +14,7 @@ export class BookService {
     isOpen: boolean;
 
     constructor() {
-        this.book = new ePub.Book('assets/epub/matoneo.epub');
+        this.book = new ePub.Book('assets/epub/matoneof.epub');
     }
 
     setRendtion(rendition) {

@@ -102,6 +102,14 @@ app-home {
       }
     }
   }
+
+  #area {
+    width: 90%;
+    height: 90%;
+    z-index: 0;
+    padding-left: 125px;
+    padding-top: 30px;
+  }
 }
 
 app-bookmarks {
